@@ -5,7 +5,7 @@ import json
 if __name__ == "__main__":
     consumer = KafkaConsumer(
         "topic name",
-        bootstrap_servers = '192.168.1.160:22222',
+        bootstrap_servers = '192.168.1.1:22222',
         auto_offset_reset = 'earliest',
         enable_auto_commit = True,
         group_id = "consumer-group-a")
